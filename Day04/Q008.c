@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    printf("sum of nth terms ");
+    int n, sum;
+    printf("sum of terms=");
+    scanf("%d", &n);
+    sum = n * (n + 1) / 2;
+    printf("sum is= %d", sum);
+
+    return 0;
+
+}
